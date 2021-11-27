@@ -1,48 +1,20 @@
 *{
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
 
 .App{
   width: 100%;
   min-height: 100vh;
-  background: #2b2a2a;
   display: flex;
-}
-
-img{
-  display: block;
-  cursor: pointer;
+  align-items: center;
+  justify-content: center;
 }
 
 .container{
-  margin: auto;
-  width: 100%;
-  max-width: 460px;
+  position: relative;
 }
 
-
-.container .selected{
-  width: 300px;
-  height: 300px;
-  margin: 0 auto ;
-  border: 1px solid hsl(30, 100%, 100%);
-}
-
-
-.container .imgContainer{
-  width: 100%;
-  display: inline-flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 40px 0 0 0;
-}
-
-
-.container .imgContainer img{
-  width: 100px;
-  height: 100px;
-  margin: 5px 0 0 0;
+button{
+  padding: 10px;
 }
